@@ -5,8 +5,8 @@ import { getFirestore } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyB_ryacCRiUUstbRdH-DhQ1yRyj-5PwUjU',
-  authDomain: 'hi-chat-da6a0.firebaseapp.com',
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH,
   projectId: 'hi-chat-da6a0',
   storageBucket: 'hi-chat-da6a0.appspot.com',
   messagingSenderId: '942844636104',
